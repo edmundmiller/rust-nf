@@ -1,0 +1,7 @@
+#+title: Todo
+
+* TODO Test rust-script
+https://github.com/snakemake/snakemake/blob/main/tests/test_script/scripts/test-outer-line-doc.rs
+* TODO Add nf-test
+* TODO Test cargo pre-build script
+* TODO Write a nix plugin
