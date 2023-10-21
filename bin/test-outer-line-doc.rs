@@ -29,12 +29,12 @@ struct BedRecord {
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
-    let f_out = File::create(&snakemake.output[0])?;
+    let f_out = File::create("test.bed")?;
 
     let mut ostream = BufWriter::new(f_out);
     println!("Loaded");
 
-    let keep_strand = match &snakemake.params.keep {
+    let keep_strand = match "+" {
         s if s.len() == 1 => Some(s.chars().next().unwrap() as char),
         _ => None,
     };
@@ -53,6 +53,6 @@ fn main() -> Result<(), Box<dyn Error>> {
             write!(&mut ostream, "{}\t{}\n", record.chrom, l)?;
         }
     }
-    println!("Output written to {}", &snakemake.output[0]);
+    // println!("Output written to {}", &snakemake.output[0]);
     Ok(())
 }
