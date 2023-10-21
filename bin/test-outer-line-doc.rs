@@ -1,3 +1,4 @@
+#!/usr/bin/env rust-script
 /// This is a regular outer line doc comment, but it also contains a partial
 use serde::Deserialize;
 /// Cargo manifest.  Note the use of a *fenced* code block, and the
