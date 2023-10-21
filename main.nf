@@ -1,3 +1,5 @@
+#!/usr/bin/env nextflow
+
 process MANIFEST_RS {
     conda "./env.yaml"
 
