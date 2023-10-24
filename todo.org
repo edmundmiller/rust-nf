@@ -1,6 +1,12 @@
 #+title: Todo
 
-* TODO Test rust-script
+* DONE Test rust-script
+CLOSED: [2023-10-21 Sat 02:17]
+** DONE Outer line doc
+CLOSED: [2023-10-24 Tue 11:12]
+:LOGBOOK:
+CLOCK: [2023-10-24 Tue 10:45]--[2023-10-24 Tue 11:12] =>  0:27
+:END:
 https://github.com/snakemake/snakemake/blob/main/tests/test_script/scripts/test-outer-line-doc.rs
 * TODO Add nf-test
 * TODO Test cargo pre-build script

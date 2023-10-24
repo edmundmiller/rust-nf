@@ -1,6 +1,5 @@
 #!/usr/bin/env rust-script
 /// This is a regular outer line doc comment, but it also contains a partial
-use serde::Deserialize;
 /// Cargo manifest.  Note the use of a *fenced* code block, and the
 /// `cargo` "language".
 ///
@@ -12,6 +11,7 @@ use serde::Deserialize;
 use std::error::Error;
 use std::fs::File;
 use std::io::{BufWriter, Write};
+use serde::Deserialize;
 
 static BED: &[u8] = b"chrom1	1	15	foo	454	-
 chrom1	40	45	bar	2	+
