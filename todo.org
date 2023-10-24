@@ -10,4 +10,8 @@ CLOCK: [2023-10-24 Tue 10:45]--[2023-10-24 Tue 11:12] =>  0:27
 https://github.com/snakemake/snakemake/blob/main/tests/test_script/scripts/test-outer-line-doc.rs
 * TODO Add nf-test
 * TODO Test cargo pre-build script
+:LOGBOOK:
+CLOCK: [2023-10-24 Tue 17:13]--[2023-10-24 Tue 17:18] =>  0:05
+:END:
+Runs outside of the container
 * TODO Write a nix plugin
