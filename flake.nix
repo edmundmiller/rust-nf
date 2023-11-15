@@ -29,6 +29,7 @@
           modules = [
             {
               # https://devenv.sh/reference/options/
+              languages.rust.enable = true;
               packages = [pkgs.rust-script];
             }
           ];
