@@ -11,7 +11,11 @@ https://github.com/snakemake/snakemake/blob/main/tests/test_script/scripts/test-
 * TODO Add nf-test
 * TODO Test cargo pre-build script
 :LOGBOOK:
-CLOCK: [2023-10-24 Tue 17:13]--[2023-10-24 Tue 17:18] =>  0:05
+CLOCK: [2023-10-24 Tue 17:13]--[2023-10-24 Tue 17:33] =>  0:20
 :END:
 Runs outside of the container
 * TODO Write a nix plugin
+** TODO Nix and cargo-script
+https://dpc.pw/posts/nix-users-you-can-start-using-rust-scripts-already/
+* TODO Cargo script
+https://github.com/rust-lang/rfcs/pull/3502
